@@ -1,11 +1,18 @@
 import Hero from "@/components/Hero";
+import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import Grid from "@/components/ui/Grid";
+import { FaHome } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <main className="left-0 right-0 top-0 bottom-0 relative overflow-hidden bg-black flex justify-center items-center h-screen w-full mx-5">
-        <div className="max-w-7xl w-full">
-          <Hero/>
-        </div>
+    <main className="relative bg-black flex justify-center items-center h-screen flex-col overflow-x-hidden mx-auto sm:px-10">
+      <div className="max-w-7xl w-full py-2">
+        <FloatingNav
+          navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}
+        />
+        <Hero />
+        <Grid />
+      </div>
     </main>
   );
 }
