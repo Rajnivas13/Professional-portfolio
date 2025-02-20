@@ -15,7 +15,7 @@ export const gridItems = [
     titleClassName: "justify-end",
     img: "/b1.svg",
     spareImg: "",
-  },
+  },    
   {
     id: 2,
     title: "I'm very flexible with time zone communications",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building the Snowflake Marketplace Data share",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,37 +72,54 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "CandyCrush Saga Game",
+    des: "A fun JavaScript-based Candy Crush game built with HTML, CSS, and Bootstrap.",
+    img: "/candycrushImage.png",
+    iconLists: ["/html.svg", "/css.svg", "/bootstrap.svg", "/nodejs.svg", "/javascript.svg"],
+    link: "https://candycrush-rajnivas-thiyagarajans-projects.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Airbnb-Clone App",
+    des: "A ReactJS Airbnb clone to practice modern web development concepts.",
+    img: "/airbnbImage.png",
+    iconLists: ["/html.svg", "/css.svg", "/bootstrap.svg", "/nodejs.svg", "/javascript.svg"],
+    link: "https://airbnb-clone-rajnivas-thiyagarajans-projects.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Blackjack",
+    des: "A classic Blackjack game built to enhance JavaScript skills.",
+    img: "/BlackJack.png",
+    iconLists: ["/html.svg", "/css.svg", "/bootstrap.svg", "/nodejs.svg", "/javascript.svg"],
+    link: "https://blackjack-rajnivas-thiyagarajans-projects.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Leads-Tracker",
+    des: "A web extension to save and manage links with notes, like an enhanced bookmark tool.",
+    img: "/leads-trackerImage.png",
+    iconLists: ["/html.svg", "/css.svg", "/bootstrap.svg", "/nodejs.svg", "/javascript.svg"],
+    link: "https://leads-tracker-rajnivas-thiyagarajans-projects.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Leaf Cake Map",
+    des: "A reusable map component for dynamic state and MSA views.",
+    img: "/LeafCakeMapUpdatedImage.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://npm-registry-leafcakemap-usa-rajnivas-thiyagarajans-projects.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "React-MemeGenerator App",
+    des: "A meme generator showcasing trending memes worldwide.",
+    img: "/MemeGeneratorImage.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://react-meme-generator-rajnivas-thiyagarajans-projects.vercel.app/",
   },
 ];
+
 
 export const testimonials = [
   {

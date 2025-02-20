@@ -5,7 +5,7 @@ import { gridItems } from "@/data";
 function Grid() {
   return (
     <section id="about">
-    <BentoGrid className="py-20 absolute">
+    <BentoGrid className="py-20">
       {gridItems.map((item, i) => (
         <BentoGridItem
           id={item.id}
