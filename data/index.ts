@@ -15,7 +15,7 @@ export const gridItems = [
     titleClassName: "justify-end",
     img: "/b1.svg",
     spareImg: "",
-  },    
+  },
   {
     id: 2,
     title: "I'm very flexible with time zone communications",
@@ -75,7 +75,13 @@ export const projects = [
     title: "CandyCrush Saga Game",
     des: "A fun JavaScript-based Candy Crush game built with HTML, CSS, and Bootstrap.",
     img: "/candycrushImage.png",
-    iconLists: ["/html.svg", "/css.svg", "/bootstrap.svg", "/nodejs.svg", "/javascript.svg"],
+    iconLists: [
+      "/html.svg",
+      "/css.svg",
+      "/bootstrap.svg",
+      "/nodejs.svg",
+      "/javascript.svg",
+    ],
     link: "https://candycrush-rajnivas-thiyagarajans-projects.vercel.app/",
   },
   {
@@ -83,7 +89,13 @@ export const projects = [
     title: "Airbnb-Clone App",
     des: "A ReactJS Airbnb clone to practice modern web development concepts.",
     img: "/airbnbImage.png",
-    iconLists: ["/html.svg", "/css.svg", "/bootstrap.svg", "/nodejs.svg", "/javascript.svg"],
+    iconLists: [
+      "/html.svg",
+      "/css.svg",
+      "/bootstrap.svg",
+      "/nodejs.svg",
+      "/javascript.svg",
+    ],
     link: "https://airbnb-clone-rajnivas-thiyagarajans-projects.vercel.app/",
   },
   {
@@ -91,7 +103,13 @@ export const projects = [
     title: "Blackjack",
     des: "A classic Blackjack game built to enhance JavaScript skills.",
     img: "/BlackJack.png",
-    iconLists: ["/html.svg", "/css.svg", "/bootstrap.svg", "/nodejs.svg", "/javascript.svg"],
+    iconLists: [
+      "/html.svg",
+      "/css.svg",
+      "/bootstrap.svg",
+      "/nodejs.svg",
+      "/javascript.svg",
+    ],
     link: "https://blackjack-rajnivas-thiyagarajans-projects.vercel.app/",
   },
   {
@@ -99,7 +117,13 @@ export const projects = [
     title: "Leads-Tracker",
     des: "A web extension to save and manage links with notes, like an enhanced bookmark tool.",
     img: "/leads-trackerImage.png",
-    iconLists: ["/html.svg", "/css.svg", "/bootstrap.svg", "/nodejs.svg", "/javascript.svg"],
+    iconLists: [
+      "/html.svg",
+      "/css.svg",
+      "/bootstrap.svg",
+      "/nodejs.svg",
+      "/javascript.svg",
+    ],
     link: "https://leads-tracker-rajnivas-thiyagarajans-projects.vercel.app/",
   },
   {
@@ -120,46 +144,39 @@ export const projects = [
   },
 ];
 
-
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Rajnivas is an enthusiastic software developer who loves to learn new technologies and can adapt to a fast paced environment.He possess the skills of excellent team playing with strong leadership qualities. I would recommend that Rajnivas is a valuable asset for any firm that is looking for a fresh software developer.",
+    name: "Saravana Kumar P",
+    title: "Software Engineer at Lightcast",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I had the pleasure of working with Rajnivas on multiple projects, and his enthusiasm for coding is truly commendable. He not only excels in technical skills but also brings a positive attitude that motivates the team. He is reliable, hardworking, and always eager to contribute innovative solutions.",
+    name: "Kumaresan Kandasamy K",
+    title: "Software Engineer at Lightcast",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Rajnivas is a dedicated software developer with a strong passion for learning new technologies. His ability to quickly adapt to challenges and collaborate effectively with teammates makes him a valuable addition to any team. His problem-solving skills and keen eye for detail set him apart.",
+    name: "Sriram K",
+    title: "Software Engineer at Lightcast",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+      "Rajnivas is an excellent team player with a strong grasp of modern software technologies. His ability to learn quickly and his dedication to delivering quality work make him an asset to any company. He has a keen sense of responsibility and always strives for excellence.",
+    name: "Rajakumar Rubansingh C",
+    title: "Delivery Manager at Lightcast",
+  }
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Lightcast",
+    img: "/Lighcast_RGB_Lockup_Color.svg",
+    nameImg: "",
   },
   {
     id: 2,
@@ -222,13 +239,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    url: "https://github.com/Rajnivas13?tab=repositories",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/rajnivas-thegeek/",
   },
 ];
